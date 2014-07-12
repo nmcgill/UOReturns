@@ -1341,7 +1341,7 @@ namespace Server.Mobiles
 
 		public override bool CheckContextMenuDisplay( IEntity target )
 		{
-			return ( m_DesignContext == null );
+			return false;
 		}
 
 		public override void OnItemAdded( Item item )
