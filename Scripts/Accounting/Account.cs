@@ -1127,7 +1127,7 @@ namespace Server.Accounting
 		/// </summary>
 		public int Limit
 		{
-			get { return ( Core.SA ? 7 : Core.AOS ? 6 : 5 ); }
+			get { return ( Core.SP ? 1 : Core.SA ? 7 : Core.AOS ? 6 : 5 ); }
 		}
 
 		/// <summary>
